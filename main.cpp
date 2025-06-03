@@ -40,7 +40,7 @@ public:
             } else if (currentTemp > targetTemp + 2) {
                 isHeating = false;
                 isCooling = true;
-           
+            }
         } else {
             isHeating = false;
             isCooling = false;
